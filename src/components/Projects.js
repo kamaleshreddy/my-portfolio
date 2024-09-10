@@ -18,8 +18,8 @@ const Projects = () => {
       description:
         'My personal portfolio, designed to showcase my skills, projects, and experiences in the world of web development',
       techused: 'React, JavaScript, HTML, Modern CSS',
-      gitlink: '#',
-      deploylink: '#',
+      gitlink: 'https://github.com/kamaleshreddy/my-portfolio',
+      deploylink: 'https://comfy-lolly-731bc3.netlify.app/',
     },
   ];
 
