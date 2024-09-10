@@ -1,38 +1,62 @@
-.App {
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebcca3; /* Replace this color with any color you like */
+  margin: 0;
+  padding-top: 80px; /* This prevents the content from being hidden behind the fixed header */
+}
+
+/* Header Styles */
+header {
+  background-color: #186487;
+  padding: 15px;
+  color: rgb(8, 7, 8);
   text-align: center;
+  position: fixed; /* Make the header fixed like the footer */
+  top: 0; /* Position it at the top of the page */
+  width: 100%; /* Ensure it spans the full width of the page */
+  z-index: 1000; /* Keep it above other elements */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1,
+nav {
+  margin-top: 0px; /* Use a negative margin to move content up */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav a {
+  margin: 0 15px;
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  margin-bottom: 50px;
+  scroll-margin-top: 135px;
+}
+
+h2 {
+  border-bottom: 2px solid #186487;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #186487;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

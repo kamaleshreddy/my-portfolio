@@ -1,0 +1,27 @@
+/* src/components/Contact.css */
+#contact {
+  text-align: center; /* Center text and buttons */
+}
+
+.button-container {
+  display: flex; /* Use flexbox to align items side by side */
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px; /* Space above the buttons */
+}
+
+.button-link {
+  display: inline-block;
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* White text */
+  background-color: #b75e04; /* Orange color for the button */
+  border: 2.5px solid black; /* Border matching button styles */
+  padding: 10px 20px; /* Adjust padding to control width */
+  border-radius: 15px; /* Match the button border-radius */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #ff7b00; /* Darker orange on hover */
+}

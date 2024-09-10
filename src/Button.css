@@ -1,0 +1,24 @@
+/* src/Button.css */
+.square-orange-button {
+  background-color: #b75e04; /* Orange color */
+  color: white; /* White text */
+  border: 2.5px solid black; /* Border */
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-radius: 15px;
+  margin-right: -1px;
+  text-decoration: none; /* No underline for links */
+}
+
+/* Hover state */
+.square-orange-button:hover {
+  background-color: #ff7b00; /* Darker orange on hover */
+}
+
+/* Active state (when clicked) */
+.square-orange-button.active {
+  background-color: #ff7b00; /* Same color as hover when clicked */
+}
